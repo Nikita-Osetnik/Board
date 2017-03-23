@@ -12,7 +12,7 @@
     <properties>
 		<appengine.app.version>1</appengine.app.version>
         <appengine.sdk.version>1.9.48</appengine.sdk.version>
-        <jdk.version>1.8</jdk.version>
+        <jdk.version>1.7</jdk.version>
 		
 		<objectify.version>5.1.5</objectify.version>
         <guava.version>18.0</guava.version>
@@ -136,8 +136,6 @@
                     </jvmFlags -->
                 </configuration>
             </plugin>
-
         </plugins>
-
     </build>
 </project>
