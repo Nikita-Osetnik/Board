@@ -12,7 +12,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet(urlPatterns = "/board/api")
+//@WebServlet(urlPatterns = "/board/api")
 public class Api extends HttpServlet {
 
     ObjectMapper mapper = new ObjectMapper();

@@ -5,12 +5,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/board")
+//@WebServlet(urlPatterns = "/board")
 public class Board extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("WEB-INF/pages/board.jsp").forward(request, response);
+        request.getRequestDispatcher("/board.jsp").forward(request, response);
     }
 
 }
