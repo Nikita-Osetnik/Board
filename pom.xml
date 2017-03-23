@@ -126,7 +126,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
-<<<<<<< HEAD
                     <archiveClasses>true</archiveClasses>
                     <webResources>
                         <!-- in order to interpolate version from pom into appengine-web.xml -->
@@ -153,9 +152,6 @@
                     <!-- jvmFlags>
                       <jvmFlag>-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n</jvmFlag>
                     </jvmFlags -->
-=======
-                    <webXml>${basedir}/src/main/webapp/WEB-INF/web.xml</webXml>
->>>>>>> origin/master
                 </configuration>
             </plugin>
 
